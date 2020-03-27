@@ -27,7 +27,7 @@ img{
 }
 
 .container{
-  margin: 0 160px;
+  margin-left: 160px;
   width: 690px;
   box-sizing: border-box;
 }
@@ -158,3 +158,50 @@ nav{
 }
 
 /* メイン */
+
+/* footer */
+
+footer{
+  background: #f2f2f2;
+  font-size: 14px;
+}
+
+footer a{
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-borderline{
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+footer ul{
+  display: flex;
+  padding: 10px 20px;
+}
+
+.footer-location-list li{
+  margin-right: 0.5em;
+}
+
+.footer-location-list li:nth-child(1){
+  border-right: 1px solid #dfdfdf;
+  padding-right: 1em;
+  margin-right: 1em;
+}
+
+.footer-location-list li:nth-child(2){
+  font-weight: bold;
+  color: #444;
+}
+
+.footer-location-list li:nth-child(2) i{
+  color: #999;
+  font-size: 11px;
+  margin-right: 0.5em;
+}
+
+.footer-list li{
+  margin-right: 2em;
+}
