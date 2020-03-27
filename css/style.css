@@ -148,6 +148,10 @@ nav{
   text-decoration: none;
 }
 
+.nav-list a:active{
+  color: #337FEA;
+}
+
 .nav-list i{
   margin-right: 0.5em;
 }
@@ -209,7 +213,7 @@ nav{
 
 .main-search-keyword{
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 20px 0;
   color: #444;
 }
 
@@ -225,7 +229,7 @@ nav{
 .main-result-logo{
   display: block;
   width: 325px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
 
@@ -239,6 +243,10 @@ footer{
 footer a{
   color: #666;
   text-decoration: none;
+}
+
+footer a:hover{
+  color: #444;
 }
 
 .footer-borderline{
